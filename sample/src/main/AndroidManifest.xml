@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uphyca.recyclerviewcommons.sample">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SampleTopActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LinearActivity" />
+        <activity android:name=".LinearReverseActivity" />
+        <activity android:name=".LinearStackFromEndActivity" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".GridReverseActivity" />
+        <activity android:name=".GridSpanActivity" />
+        <activity android:name=".StaggeredGridActivity" />
+        <activity android:name=".HeaderFooterActivity" />
+        <activity android:name=".PagingActivity" />
+
+    </application>
+
+</manifest>
