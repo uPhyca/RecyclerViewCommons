@@ -17,6 +17,7 @@
 package com.uphyca.recyclerviewcommons;
 
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +38,9 @@ public abstract class HeaderFooterAdapter<T, VH extends RecyclerView.ViewHolder>
     public static final int ITEM_VIEW_TYPE_HEADER = 1;
     public static final int ITEM_VIEW_TYPE_FOOTER = 2;
 
+    @Nullable
     private final View headerView;
+    @Nullable
     private final View footerView;
 
     private boolean showFooter;
@@ -46,7 +49,7 @@ public abstract class HeaderFooterAdapter<T, VH extends RecyclerView.ViewHolder>
         this(new ArrayList<T>(), headerView, footerView);
     }
 
-    public HeaderFooterAdapter(@NonNull List<T> objects, View headerView, View footerView) {
+    public HeaderFooterAdapter(@NonNull List<T> objects, @Nullable View headerView, @Nullable View footerView) {
         super(objects);
         this.headerView = headerView;
         this.footerView = footerView;
@@ -129,5 +132,4 @@ public abstract class HeaderFooterAdapter<T, VH extends RecyclerView.ViewHolder>
             super(itemView);
         }
     }
-
 }

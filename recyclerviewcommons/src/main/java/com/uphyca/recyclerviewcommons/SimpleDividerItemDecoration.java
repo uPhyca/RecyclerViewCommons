@@ -19,6 +19,7 @@ package com.uphyca.recyclerviewcommons;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.support.annotation.ColorInt;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -33,11 +34,11 @@ public class SimpleDividerItemDecoration extends RecyclerView.ItemDecoration {
     private final int dividerMargin;
     private int dividerStartPosition = 0;
 
-    public SimpleDividerItemDecoration(int color, int height) {
+    public SimpleDividerItemDecoration(@ColorInt int color, int height) {
         this(color, height, 0);
     }
 
-    public SimpleDividerItemDecoration(int color, int height, int margin) {
+    public SimpleDividerItemDecoration(@ColorInt int color, int height, int margin) {
         this.dividerHeight = height;
         this.dividerMargin = margin;
         paint.setColor(color);
