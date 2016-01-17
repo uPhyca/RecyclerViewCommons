@@ -180,4 +180,8 @@ public abstract class ArrayAdapter<T, VH extends RecyclerView.ViewHolder> extend
         }
         notifyItemRangeRemoved(getPositionOffset(), itemCount);
     }
+
+    public boolean isEmpty() {
+        return objects.isEmpty();
+    }
 }
