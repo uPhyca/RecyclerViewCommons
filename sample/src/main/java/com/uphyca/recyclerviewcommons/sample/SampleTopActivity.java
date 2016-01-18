@@ -63,6 +63,7 @@ public class SampleTopActivity extends AppCompatActivity {
         data.add(new Item("StaggeredGrid", new Intent(this, StaggeredGridActivity.class)));
         data.add(new Item("HeaderFooter", new Intent(this, HeaderFooterActivity.class)));
         data.add(new Item("Paging", new Intent(this, PagingActivity.class)));
+        data.add(new Item("ExpandableList", new Intent(this, ExpandableListActivity.class)));
 
         // set adapter
         final SimpleAdapter<Item> adapter = new SimpleAdapter<Item>(this, data) {

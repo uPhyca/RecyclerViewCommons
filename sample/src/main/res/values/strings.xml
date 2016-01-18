@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RecyclerViewCommons</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis leo quis erat ornare ornare. Duis viverra ante tellus, vel tempus lectus posuere egestas. Nam vitae sapien neque. Donec commodo porttitor nibh non scelerisque. Proin elit dui, congue eget tortor sed, rhoncus lobortis enim. Sed eget orci at erat rhoncus vulputate sed vel ante. Nunc gravida, felis a blandit dignissim, sapien neque sagittis urna, sed dictum nulla odio id diam. Aenean sed nulla sit amet velit fermentum ornare sit amet nec eros. Vivamus at tincidunt libero, tempus volutpat diam. Cras blandit purus in nibh hendrerit, quis aliquam neque porttitor. Nunc.</string>
 </resources>
