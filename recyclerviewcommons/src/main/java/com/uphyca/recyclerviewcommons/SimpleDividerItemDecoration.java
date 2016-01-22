@@ -65,7 +65,7 @@ public class SimpleDividerItemDecoration extends RecyclerView.ItemDecoration {
         for (int i = 1; i < childCount; i++) {
             final View child = parent.getChildAt(i);
             final RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) child.getLayoutParams();
-            if (params.getViewLayoutPosition() == 0) {
+            if (params.getViewLayoutPosition() <= dividerStartPosition) {
                 continue;
             }
             // ViewCompat.getTranslationY() needs for add/delete animation
