@@ -24,6 +24,9 @@
         <activity android:name=".HeaderFooterActivity" />
         <activity android:name=".PagingActivity" />
         <activity android:name=".ExpandableListActivity" />
+        <activity android:name=".SwipeToDismissActivity" />
+        <activity android:name=".DragAndDropActivity" />
+        <activity android:name=".DragAndDropWithHandleActivity" />
 
     </application>
 

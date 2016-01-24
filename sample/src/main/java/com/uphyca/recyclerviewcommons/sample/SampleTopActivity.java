@@ -64,6 +64,9 @@ public class SampleTopActivity extends AppCompatActivity {
         data.add(new Item("HeaderFooter", new Intent(this, HeaderFooterActivity.class)));
         data.add(new Item("Paging", new Intent(this, PagingActivity.class)));
         data.add(new Item("ExpandableList", new Intent(this, ExpandableListActivity.class)));
+        data.add(new Item("Swipe to dismiss", new Intent(this, SwipeToDismissActivity.class)));
+        data.add(new Item("Drag and drop", new Intent(this, DragAndDropActivity.class)));
+        data.add(new Item("Drag and drop with handle", new Intent(this, DragAndDropWithHandleActivity.class)));
 
         // set adapter
         final SimpleAdapter<Item> adapter = new SimpleAdapter<Item>(this, data) {
